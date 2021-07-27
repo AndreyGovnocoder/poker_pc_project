@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/MainInterface">
+        <file>imgs/cancelBetBtn.png</file>
+        <file>imgs/acceptBetBtn.png</file>
+        <file>imgs/combinations2.png</file>
+        <file>imgs/main_scr.png</file>
+        <file>imgs/chip1.png</file>
+        <file>imgs/rules_textFon.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>RulesForm</class>
+ <widget class="QDialog" name="RulesForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>507</width>
+    <height>573</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>RulesForm</string>
+  </property>
+  <property name="windowOpacity">
+   <double>1.000000000000000</double>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <widget class="QScrollArea" name="scrollArea">
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/MainInterface/imgs/rules_textFon.png);</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Plain</enum>
+       </property>
+       <property name="widgetResizable">
+        <bool>true</bool>
+       </property>
+       <widget class="QWidget" name="scrollAreaWidgetContents">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>468</width>
+          <height>3126</height>
+         </rect>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_3">
+         <item>
+          <widget class="QLabel" name="label_2">
+           <property name="palette">
+            <palette>
+             <active>
+              <colorrole role="WindowText">
+               <brush brushstyle="SolidPattern">
+                <color alpha="255">
+                 <red>255</red>
+                 <green>255</green>
+                 <blue>255</blue>
+                </color>
+               </brush>
+              </colorrole>
+             </active>
+             <inactive>
+              <colorrole role="WindowText">
+               <brush brushstyle="SolidPattern">
+                <color alpha="255">
+                 <red>255</red>
+                 <green>255</green>
+                 <blue>255</blue>
+                </color>
+               </brush>
+              </colorrole>
+             </inactive>
+             <disabled>
+              <colorrole role="WindowText">
+               <brush brushstyle="SolidPattern">
+                <color alpha="255">
+                 <red>120</red>
+                 <green>120</green>
+                 <blue>120</blue>
+                </color>
+               </brush>
+              </colorrole>
+             </disabled>
+            </palette>
+           </property>
+           <property name="text">
+            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:16pt; font-weight:600; color:#ffffff;&quot;&gt;Правила &lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:16pt; font-weight:600; color:#ffffff;&quot;&gt;Техасского Холдема&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:12pt; color:#ffffff;&quot;&gt;Техасский Холдем является самой популярной разновидностью покера в мире.Если говорить о точной дате и месте рождения этой игры, то вряд ли где-либо можно найти достоверные цифры и факты. Наиболее приемлемой является версия, что он пришел к нам из Северной Америки (в частности, с Аляски) в том виде, в котором мы его знаем и сейчас.&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:12pt; color:#ffffff;&quot;&gt;Впервые правила Техасского Холдема были утверждены в 1900 г. в Техасе (Робстаун), чему собственно и обязано его название. Но по-настоящему его популярность стала набирать обороты с проведением первого турнира по этой покерной дисциплине в 1969 г.&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:12pt; color:#ffffff;&quot;&gt;Комментатор Мирового Покерного Турнира (WPT) и профессионал покера Майк Секстон любит говорить: &amp;quot;Нужна лишь минута, чтобы выучить правила покера Техасский Холдем, и вся жизнь, чтобы стать мастером&amp;quot;.&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:16pt; color:#ffffff;&quot;&gt;Как играть в Техасский Холдем? Правила &lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:12pt; color:#ffffff;&quot;&gt;Сейчас мы подробно разберем все этапы игры в покер. &lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:16pt; color:#ffffff;&quot;&gt;Фишка дилера&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:12pt; color:#ffffff;&quot;&gt;Фишка дилера, диск с надписью &amp;quot;Дилер&amp;quot; или &amp;quot;D&amp;quot;, является очень важной частью игры, поскольку она показывает, кто сдает карты и занимает позицию &amp;quot;баттон&amp;quot;. Каждому игроку придется побывать дилером по одному разу за один круг. Если вы играете в казино, то с вами за столом будет профессиональный дилер, раздающий карты всем, кроме себя. Однако и в этом случае фишка дилера переходит по кругу от игрока к игроку.&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:12pt; color:#ffffff;&quot;&gt;В первую очередь карты сдают находящемуся слева от баттона игроку, и далее по часовой стрелке. В компании без профессионального дилера игроки раздают карты (являются дилерами) по очереди.&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:12pt; color:#ffffff;&quot;&gt;Позиция дилера (баттон) является самой благоприятной в игре. Игрок на этом месте делает ставку последним, после того, как он увидел, какие решения приняли остальные. Исключением является первый круг торгов, так как блайнды вступают в игру сразу после дилера. &lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:16pt; color:#ffffff;&quot;&gt;Блайнды (&amp;quot;слепые ставки&amp;quot;)&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:12pt; color:#ffffff;&quot;&gt;Прежде чем игроки получат карты, в соответствии с правилами два игрока слева от дилера обязаны поставить так называемые блайнды – обязательные ставки, которые делаются по умолчанию в каждой раздаче. Игрок, сидящий слева от баттона, ставит половину размера обязательной ставки – малый блайнд. Следующий игрок ставит полную ставку – большой блайнд.&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:16pt; color:#ffffff;&quot;&gt;Раздача&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:12pt; color:#ffffff;&quot;&gt;После того, как маленькие и большие блайнды поставлены, каждому игроку раздают по две карты лицом вниз и рубашкой вверх. Это карманные карты. Лучшими начальными картами, как говорят правила игры в Техасский Холдем являются два туза. Начинается первый круг торгов на префлопе.&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:16pt; color:#ffffff;&quot;&gt;Предварительный раунд или префлоп&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:12pt; color:#ffffff;&quot;&gt;После того, как блайнды в покере были поставлены и были сданы карманные карты, начинается торговля. Этот раунд называют предварительным. Первым в торговлю вступает игрок, сидящий слева от большого блайнда. Он может поставить сумму большого блайнда, поднять ставку или сбросить карты. Если игрок решает сбросить, то он сбрасывает свои карты лицом вниз и ждет следующей раздачи. Ход переходит к следующему игроку по часовой стрелке, пока каждому игроку не будет предоставлена возможность сделать ставку, поднять ее или сбросить карты.&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:12pt; color:#ffffff;&quot;&gt;Если игрок на большом блайнде решает поднять ставку, то все оставшиеся игроки должны или повысить ставку, или ответить на нее, или сбросить карты. &lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:16pt; color:#ffffff;&quot;&gt;Флоп&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:12pt; color:#ffffff;&quot;&gt;После того, как первый раунд торговли завершен, по правилам игры, дилер выкладывает три общие карты в центр стола. Все оставшиеся игроки использует эти три карты вместе с их двумя начальными картами, чтобы собрать лучшую комбинацию. Эти три карты называются &amp;quot;флоп&amp;quot;. После флопа начинается новый раунд торговли. Первым делает ставку игрок слева от дилера. Обязательных ставок больше не существует, и у игрока есть два варианта – сделать чек или поставить фишки в банк. &amp;quot;Чек&amp;quot; означает, что игрок остается в розыгрыше без повышения, если количество вложенных им фишек соответствует ставкам предыдущих игроков. Когда игрок делает &amp;quot;чек&amp;quot;, ход переходит к следующему активному игроку, который может также сказать &amp;quot;чек&amp;quot;. Если игрок хочет пропустить, он говорит &amp;quot;чек&amp;quot; или стучит пальцами по столу (или нажимает на соответствующую кнопку).&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:12pt; color:#ffffff;&quot;&gt;Однако если кто-то решает начать торговлю и сделать ставку, то по правилам игры в Техасский Холдем следующие игроки не могут ответить чеком и должны ответить на ставку, поднять ее или сбросить карты. Причем это относится и ко всем игрокам, которые ранее сказали &amp;quot;чек&amp;quot;. Как только все ставки этого раунда сделаны или все игроки сказали «чек», можно перейти в следующий раунд торговли. &lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:16pt; color:#ffffff;&quot;&gt;Терн&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:12pt; color:#ffffff;&quot;&gt;После того, как второй раунд торговли завершен, на стол кладется еще одна карта, ее называют &amp;quot;терн&amp;quot;. Как видно из рисунка 4, в раздаче осталось только три игрока, остальные сбросили карты на флопе. После появления 4-й общей карты начинается новый раунд по тем же правилам Холдема, что и предыдущий. Торговля традиционно начинается с первого активного (оставшегося в раздаче) игрока слева от дилера.&lt;/span&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:16pt; color:#ffffff;&quot;&gt;Ривер&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:12pt; color:#ffffff;&quot;&gt;После того, как третий раунд торговли завершен, на стол кладется пятая, заключительная карта, называемая &amp;quot;ривер&amp;quot;. С появлением пятой карты начинается новый круг торговли. Если последний раунд торговли заканчивается с двумя или более активными игроками, мы переходим к шоудауну, финальной стадии игры.&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:16pt; color:#ffffff;&quot;&gt;Вскрытие карт (шоудаун)&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:12pt; color:#ffffff;&quot;&gt;После того, как финальный круг торговли завершен, пора узнать, кто выиграл раздачу и, соответственно, банк. Теперь, когда все карты на столе, каждый игрок может объединить свои карманные карты с любыми из пяти общих карт, чтобы получить наилучшую комбинацию. &lt;/span&gt;&lt;span style=&quot; font-family:'-apple-system','BlinkMacSystemFont','Roboto','Helvetica Neue','Helvetica','Arial','sans-serif'; font-size:16px; color:#ffffff;&quot;&gt;Победителем становится участник, составивший самую сильную комбинацию — ему достается банк. &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+           </property>
+           <property name="wordWrap">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <spacer name="horizontalSpacer">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton">
+         <property name="palette">
+          <palette>
+           <active>
+            <colorrole role="Button">
+             <brush brushstyle="SolidPattern">
+              <color alpha="150">
+               <red>0</red>
+               <green>85</green>
+               <blue>255</blue>
+              </color>
+             </brush>
+            </colorrole>
+            <colorrole role="ButtonText">
+             <brush brushstyle="SolidPattern">
+              <color alpha="255">
+               <red>255</red>
+               <green>255</green>
+               <blue>255</blue>
+              </color>
+             </brush>
+            </colorrole>
+            <colorrole role="Base">
+             <brush brushstyle="SolidPattern">
+              <color alpha="150">
+               <red>0</red>
+               <green>85</green>
+               <blue>255</blue>
+              </color>
+             </brush>
+            </colorrole>
+            <colorrole role="Window">
+             <brush brushstyle="SolidPattern">
+              <color alpha="150">
+               <red>0</red>
+               <green>85</green>
+               <blue>255</blue>
+              </color>
+             </brush>
+            </colorrole>
+           </active>
+           <inactive>
+            <colorrole role="Button">
+             <brush brushstyle="SolidPattern">
+              <color alpha="150">
+               <red>0</red>
+               <green>85</green>
+               <blue>255</blue>
+              </color>
+             </brush>
+            </colorrole>
+            <colorrole role="ButtonText">
+             <brush brushstyle="SolidPattern">
+              <color alpha="255">
+               <red>255</red>
+               <green>255</green>
+               <blue>255</blue>
+              </color>
+             </brush>
+            </colorrole>
+            <colorrole role="Base">
+             <brush brushstyle="SolidPattern">
+              <color alpha="150">
+               <red>0</red>
+               <green>85</green>
+               <blue>255</blue>
+              </color>
+             </brush>
+            </colorrole>
+            <colorrole role="Window">
+             <brush brushstyle="SolidPattern">
+              <color alpha="150">
+               <red>0</red>
+               <green>85</green>
+               <blue>255</blue>
+              </color>
+             </brush>
+            </colorrole>
+           </inactive>
+           <disabled>
+            <colorrole role="Button">
+             <brush brushstyle="SolidPattern">
+              <color alpha="150">
+               <red>0</red>
+               <green>85</green>
+               <blue>255</blue>
+              </color>
+             </brush>
+            </colorrole>
+            <colorrole role="ButtonText">
+             <brush brushstyle="SolidPattern">
+              <color alpha="255">
+               <red>120</red>
+               <green>120</green>
+               <blue>120</blue>
+              </color>
+             </brush>
+            </colorrole>
+            <colorrole role="Base">
+             <brush brushstyle="SolidPattern">
+              <color alpha="150">
+               <red>0</red>
+               <green>85</green>
+               <blue>255</blue>
+              </color>
+             </brush>
+            </colorrole>
+            <colorrole role="Window">
+             <brush brushstyle="SolidPattern">
+              <color alpha="150">
+               <red>0</red>
+               <green>85</green>
+               <blue>255</blue>
+              </color>
+             </brush>
+            </colorrole>
+           </disabled>
+          </palette>
+         </property>
+         <property name="font">
+          <font>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgba(0, 85, 255, 150);</string>
+         </property>
+         <property name="text">
+          <string>Закрыть</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer_3">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="MainInterface.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>RulesForm</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>383</x>
+     <y>454</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>454</x>
+     <y>454</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
